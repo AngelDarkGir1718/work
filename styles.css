@@ -29,7 +29,8 @@ body * {
 
 header {
     margin-top: 32px ;
-   height: calc(120px + 32px)}
+    height: 120px
+}
 
 header div {
     width: 120px;
@@ -48,7 +49,7 @@ header div:hover {
     transform: scale(1.1);
 }
 
-header div img{
+header img{
     width: 100%;
     border-radius: 50%;
 }
@@ -99,7 +100,7 @@ section ul li {
 }
 
 section ul li:hover {
-    transform: scale(1.1)
+    transform: scale(1.1) /*passar o mouse e aumentar a imagem*/
 }
 
 .games-list img {
