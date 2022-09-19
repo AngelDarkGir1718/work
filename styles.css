@@ -10,11 +10,11 @@
 
 
 body {
-    background-image: url(./assets/bg.jpg);
+    background-image: url(./assets/bgg.jpg);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-color: #121214;
+    background-color: #000000;
 }
 
 ul { 
@@ -29,7 +29,7 @@ body * {
 
 header {
     margin-top: 32px ;
-    height: 120px
+    height: calc(120px + 32px);
 }
 
 header div {
@@ -126,7 +126,7 @@ main section {
 }
 
 main section:nth-child(1) {
-    animation-delay: o;
+    animation-delay: 0;
 }
 
 main section:nth-child(2) {
@@ -134,7 +134,7 @@ main section:nth-child(2) {
 }
 
 main section:nth-child(3) {
-    animation-delay: .8s
+    animation-delay: .8s;
 }
 
 @keyframes fronTop {
